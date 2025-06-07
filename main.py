@@ -30,3 +30,8 @@
 # age = 1
 
 # print('siz voyaga yetgansiz' if age >= 18 else 'siz voyaga yetmagansiz')
+
+
+friends = ['Ali','Komil','Bobir']
+print(friends)
+print(friends[-1])
