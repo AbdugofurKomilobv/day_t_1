@@ -30,8 +30,31 @@
 # age = 1
 
 # print('siz voyaga yetgansiz' if age >= 18 else 'siz voyaga yetmagansiz')
+# =============================================
+# List
+# friends = ['Ali','Komil','Bobir']
+# print(friends)
+# print(friends[-1])
 
 
-friends = ['Ali','Komil','Bobir']
-print(friends)
-print(friends[-1])
+# ===============
+
+
+# List methodlar
+
+
+items = ['Ali',True,12,False,[1,2,3]]
+
+
+# .append(new_value) -> bu ro'yxat oxiriga malumot qoshish
+# items.append(1)
+# print(items)
+
+# insert(index,value) -> royxat ichida istalgan joyga malumot qoshadi 
+
+# items.insert(2,'akks')
+
+#  .remove(value) -> Royxat ichidan qiymatni olib tashlaydi
+
+# items.remove(True)
+# print(items)
