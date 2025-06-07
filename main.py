@@ -1,6 +1,6 @@
 son1 = input('son1: ')
 son2 = input('son2: ')
-if not int(son2.isdigit() and son1.isdigit()):
+if not son2.isdigit():
     print('faqt raqam kiriting')
 operator = input('+,*,/,-,: ')
 
@@ -10,7 +10,11 @@ operator = input('+,*,/,-,: ')
 if operator == '+':
     print(son1+son2)
 elif operator == '/':
-    print(son1/son2)
+    if son2 != "0":
+        print(son1 / son2)
+    else:
+        print(son1,"ni ",son2, 'ga bolib bolmaydi')
+   
 elif operator == '*':
     print(son1*son2)
 elif operator == '-':
