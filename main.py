@@ -58,3 +58,9 @@ items = ['Ali',True,12,False,[1,2,3]]
 
 # items.remove(True)
 # print(items)
+
+
+# .pop(value_index) -> Ro'yxat ichidan uzatilgan index raqam ostida yotgan qiymatni o'chiradi yani boshqa o'zgaruvchida saqlashi mumkin 
+# ro'yxat ichidan qiymatni suguib olib moshqa o';zgaruvchiga saqalash mumkin
+# delete_itme = items.pop(0)
+# print(items,delete_itme)
